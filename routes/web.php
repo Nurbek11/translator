@@ -23,4 +23,8 @@ $router->get('/parse', [
     'as' => 'parse', 'uses' => 'ExampleController@parse'
 ]);
 
+$router->get('/getTranslates', [
+    'as' => 'getTranslates', 'uses' => 'ExampleController@getTranslates'
+]);
+
 
